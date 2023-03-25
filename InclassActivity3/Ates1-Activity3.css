@@ -1,0 +1,52 @@
+.advertisement
+{
+	width:100px;
+	height:150px; 
+	border-color:black;
+	border-width:2px; 
+	background-color:gray; 
+	color:white;
+	position: absolute;  /* Position the advertisement placeholder absolutely */
+	top: 1%;  /* Set the distance from the top of the page */
+	left: 1%;   /* Set the distance from the left of the page */
+}
+
+.image img
+{
+	width: 250px;  /* Set the width of the image */
+	float: left;  /* Float the image to the left */
+	margin-right: 10px;  /* Add a margin to the right of the image */
+}
+
+.content
+{
+	width: 70%;  /* Set the width of the content section */
+	position: relative;   /* Position the content section relatively */
+	left: 13%;  /* Set the distance from the left of the page */
+	float: left;  /* Float the content section to the left */
+	margin-bottom: 50px;  /* Add a margin to the bottom of the content section */
+}
+
+.header
+{
+	position: relative;  /* Position the header section relatively */
+	left: 11%;  /* Set the distance from the left of the page */
+}
+
+.logo
+{
+	float: left;   /* Float the logo to the left */
+	margin-right: 30px;  /* Add a margin to the right of the logo */
+	margin-bottom: 30px;  /* Add a margin to the bottom of the logo */
+}
+
+.head{
+	text-align: center;  /* Center align the text */
+	clear: both;  /* Clear the floats */
+}
+
+div:last-of-type
+{
+	width: 100%;  /* Set the width of the last div element to 100% */
+}
+
