@@ -1,0 +1,257 @@
+/* Global Styles */
+
+/* Set default margin, padding, and box-sizing */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+  
+  /* Set default font family and size */
+  body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+  }
+  
+  
+  /* Header Styles */
+
+  /* Set background color, text color, and padding for header */
+  header {
+	background-color: #231955;
+	color: #fff;
+	padding: 5px;
+	font-size: 20px;
+  }
+  
+  /* Align navigation to center */
+  nav {
+	align-items: center;
+  }
+  
+  /* Set list-style, text alignment, and display for navigation list */
+  nav ul {
+	list-style: none;
+	text-align: center;
+  }
+  
+  /* Set margin-left and display for navigation items */
+  nav li {
+	margin-left: 40px;
+	display: inline;
+  }
+  
+  /* Set color and text-decoration for navigation links */
+  nav a {
+	color: #fff;
+	text-decoration: none;
+  }
+  
+  /* Set width and margin for logo image */
+  .logo img {
+	width: 6%;
+	margin-left: 2%;
+  }
+
+  /* Set position, left, and top for motto */
+  .motto {
+	position: absolute;
+	left: 10%;
+	top: 3%;
+  }
+  
+
+  /* Main Content Styles */
+
+  /* Set maximum width, margin, and padding for main content */
+  main {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 2rem;
+  }
+
+
+  /* Footer Styles */
+
+  /* Set fixed position at bottom, width, background color, text color, padding, text alignment, and font size for footer */
+  footer {
+	position: fixed;
+	bottom: 0;
+    width: 100%;
+	background-color: #231955;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	font-size: 14px;
+  }
+  
+  /* Set color for footer links */
+  footer a {
+	color: #fff;
+  }
+  
+  /* Set margin, padding, list-style, display, text alignment, and margin-bottom for footer list */
+  footer ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display:inline-block;
+	text-align: center;
+	margin-bottom: 10px;
+  }
+  
+  /* Set margin for footer list items */
+  footer ul li {
+	margin: 0 10px;
+  }
+  
+  /* Set margin for footer paragraphs */
+  footer p {
+	margin: 0;
+  }
+
+
+  /* Home Page Styles */
+
+  /* Set margin-bottom and text alignment for hero section */
+  .hero {
+	margin-bottom: 50px;
+	text-align: center;
+  }
+
+  /* Set width, background color, box-sizing, padding, margin-bottom, text alignment, display, and float for feature sections */
+  .feature {
+	width: 30%;
+	background-color: #fff;
+	box-sizing: 0px 0px 10px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	margin-bottom: 30px;
+	text-align: center;
+	display:inline;
+	float: left;
+  }
+  
+  /* Set max-width, height, margin-bottom, and text alignment for feature images */
+  .feature img {
+	max-width: 100%;
+	height: 150px;
+	margin-bottom: 20px;
+  }
+
+  
+  /* Classes Page Styles */
+
+  /* Set width, display, float, and text alignment for class sections */
+  .class {
+	width: 30%;
+	display: inline;
+	float: left;
+	text-align: center;
+  }
+
+  /* Set width for class images */
+  .class img {
+	width: 85%;
+  }
+  
+  /* Set width, line-height, margin-bottom for class paragraphs */
+  .class p {
+	width: 95%;
+	line-height: 1.5;
+	margin-bottom: 100px;
+  }
+
+  /* Set text alignment and margin-bottom for classes section */
+  #classes {
+	text-align: center;
+	margin-bottom: 10px;
+  }
+
+  
+  /* Schedule Page Styles */
+
+  #schedule {
+	margin-left: 30%;
+  }
+
+  /* Set border, margin, and width for all table elements */
+  table 
+  {
+	  border-collapse: collapse;
+	  border: 3px solid #231955;
+	  margin: 20px;
+	  margin-bottom: 100px;
+	  width: 70%;
+  }
+  
+  /* Set background-color, font-size, and text color for table header cells */
+  thead 
+  {
+	  background-color: #231955;
+	  font-size: 20px;
+	  color: #fff;
+  }
+  
+  /* Set border, padding, text alignment, and vertical alignment for all table th, td values */
+  th, td 
+  {
+	  border: 2px solid black;
+	  padding: 20px;
+	  text-align: left;
+	  vertical-align: middle;
+  }
+   
+  
+  /* Trainers Page Styles */
+
+  .trainer {
+	margin-top: 20px;
+  }
+
+  /* Set width, float, and margin for trainer images */
+  .trainer img {
+	width: 15%;
+	float: left;
+	margin-right: 10px;
+  }
+  
+  /* Set font-size and margin-bottom for trainer headers */
+  .trainer h2 {
+	font-size: 1.5rem;
+	margin-bottom: 0.5rem;
+  }
+  
+  /* Set line-height, margin-bottom, and width for trainer paragraphs */
+  .trainer p {
+	line-height: 1.5;
+	margin-bottom: 100px;
+	width: 75%;
+  }
+
+
+  /* Contact Page Styles */
+
+  #contact {
+	width: 20%;
+  }
+
+  /* Set width and height for contact message input */
+  #contact-message {
+	width: 40%;
+	height: 100px;
+  }
+
+  /* Set width, height, margin-top, color, and background-color for button */
+  #button {
+	width: 20%;
+	height: 50px;
+	margin-top: 30px;
+	color: #fff;
+	background-color: #231955;
+	font-size: 25px;
+  }
+
+  /* Set background-color for button on hover */
+  #button:hover {
+	background-color:darkslateblue;
+  }
