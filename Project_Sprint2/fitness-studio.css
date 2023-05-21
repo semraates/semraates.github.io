@@ -1,0 +1,300 @@
+/* Global Styles */
+
+/* Set default padding, and box-sizing */
+* {
+	  box-sizing: border-box;
+  }
+  
+  /* Set default font family and size */
+  body {
+	  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	  font-size: 17px;
+  }
+  
+  
+  /* Header Styles */
+
+  header {
+    background-color: #231955;
+    color: #fff;
+    padding: 5px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    height: 100px;
+  }
+
+  nav ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-left: 30px;
+    display: inline-block;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .logo img {
+    width: 6%;
+    margin-left: 2%;
+    vertical-align: middle;
+  }
+
+  .motto {
+    position: absolute;
+    left: 10%;
+    top: 3%;
+  }
+  
+
+  /* Main Content Styles */
+
+  /* Set maximum width, margin, and padding for main content */
+  main {
+    width: 1100px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+
+
+  /* Footer Styles */
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #231955;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  footer a {
+	  color: #fff;
+  }
+  
+  footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display:inline-block;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  /* Set margin for footer list items */
+  footer ul li {
+	  margin: 0 10px;
+  }
+  
+  /* Set margin for footer paragraphs */
+  footer p {
+	  margin: 0;
+  }
+
+
+  /* Home Page Styles */
+
+  /* Set margin-bottom and text alignment for hero section */
+  .hero {
+	margin-bottom: 50px;
+	text-align: center;
+  }
+
+  /* Set width, text alignment, display for feature sections */
+  .feature {
+	width: 30%;
+	text-align: center;
+	display:inline-block;
+	
+  }
+  
+  /* Set  height for feature images */
+  .feature img {
+	  height: 200px;
+  }
+
+  /* Set width, line-height, margin-bottom for feature p sections */
+  .feature p {
+    width: 95%;
+	  line-height: 1.5;
+	  margin-bottom: 100px;
+  }
+
+  /* Set text alignment, margin-bottom  for features sections */
+  .features {
+    text-align: center;
+	  margin-bottom: 10px;
+  }
+
+  
+  /* Classes Page Styles */
+
+  #main-classes {
+    text-align: center;
+  }
+
+  /* Set width, display, float, and text alignment for class sections */
+  .class {
+	width: 30%;
+	display: inline-block;
+	text-align: center;
+  }
+
+  /* Set width for class images */
+  .class img {
+	width: 85%;
+  }
+  
+  /* Set width, line-height, margin-bottom for class paragraphs */
+  .class p {
+	width: 95%;
+	line-height: 1.5;
+	margin-bottom: 100px;
+  }
+
+  /* Set text alignment and margin-bottom for classes section */
+  #classes {
+	text-align: center;
+	margin-bottom: 10px;
+  }
+
+  
+  /* Schedule Page Styles */
+
+  #main-schedule {
+    margin-left: 22%;
+  }
+  #schedule {
+	  margin-left: 30%;
+  }
+
+  /* Set border, margin, and width for all table elements */
+  table 
+  {
+	  border-collapse: collapse;
+	  border: 3px solid #231955;
+	  margin: 20px;
+	  margin-bottom: 100px;
+	  width: 70%;
+  }
+  
+  /* Set background-color, font-size, and text color for table header cells */
+  thead 
+  {
+	  background-color: #231955;
+	  font-size: 20px;
+	  color: #fff;
+  }
+  
+  /* Set border, padding, text alignment, and vertical alignment for all table th, td values */
+  th, td 
+  {
+	  border: 2px solid black;
+	  padding: 20px;
+	  text-align: left;
+	  vertical-align: middle;
+  }
+   
+  
+  /* Trainers Page Styles */
+
+  .trainer {
+	  margin-top: 20px;
+  }
+
+  /* Set width, float, and margin for trainer images */
+  .trainer img {
+    width: 16%;
+    float: left;
+    margin-right: 10px;
+  }
+  
+  /* Set font-size and margin-bottom for trainer headers */
+  .trainer h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 20%;
+  }
+  
+  /* Set line-height, margin-bottom, and width for trainer paragraphs */
+  .trainer p {
+    line-height: 1.5;
+    margin-bottom: 100px;
+    width: 60%;
+    margin-left: 20%;
+  }
+
+
+ /* Contact Page Styles */
+
+/* Set the margin for the contact main section */
+#contact-main {
+  margin-left: 25%;
+}
+
+/* Styling for labels */
+label {
+  width: 35%;
+  display: inline-block;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 2%;
+}
+
+/* Styling for form input fields */
+.form-input {
+  border: 3px solid #231955;
+  width: 20%;
+  height: 30px;
+}
+
+/* Styling for the message input field */
+#message {
+  width: 30%;
+  height: 100px;
+  vertical-align: top;
+  margin-top: 2%;
+}
+
+/* Styling for the button */
+#button {
+  width: 20%;
+  height: 50px;
+  margin-top: 30px;
+  color: #fff;
+  background-color: #080809;
+  border-style: hidden;
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 35.5%;
+}
+
+/* Styling for button on hover */
+#button:hover {
+  background-color: #3bc82f;
+}
+
+/* Styling for invalid input fields */
+input:required:invalid,
+input:focus:invalid {
+  background-image: url(images/invalid.png);
+  background-position: right top;
+  background-repeat: no-repeat;
+}
+
+/* Styling for valid required input fields */
+input:valid:required {
+  background-image: url(images/valid.jpg);
+  background-position: right top;
+  background-repeat: no-repeat;
+}
