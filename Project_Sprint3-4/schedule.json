@@ -1,0 +1,63 @@
+[
+    {
+      "date": "Monday",
+      "class": "Yoga",
+      "time": "9:00 AM to 10:00 AM"
+    },
+    {
+      "date": "Monday",
+      "class": "CrossFit",
+      "time": "11:00 AM to 12:00 PM"
+    },
+    {
+      "date": "Tuesday",
+      "class": "Pilates",
+      "time": "2:00 PM to 3:00 PM"
+    },
+    {
+      "date": "Tuesday",
+      "class": "Zumba",
+      "time": "5:00 PM to 6:00 PM"
+    },
+    {
+      "date": "Wednesday",
+      "class": "Zumba",
+      "time": "10:00 AM to 11:00 AM"
+    },
+    {
+      "date": "Wednesday",
+      "class": "Hiit",
+      "time": "12:00 PM to 1:00 PM"
+    },
+    {
+      "date": "Thursday",
+      "class": "Yoga",
+      "time": "3:00 PM to 4:00 PM"
+    },
+    {
+      "date": "Thursday",
+      "class": "Zumba",
+      "time": "6:00 PM to 7:00 PM"
+    },
+    {
+      "date": "Friday",
+      "class": "Pilates",
+      "time": "3:00 PM to 4:00 PM"
+    },
+    {
+      "date": "Friday",
+      "class": "CrossFit",
+      "time": "6:00 PM to 7:00 PM"
+    },
+    {
+      "date": "Saturday",
+      "class": "Hiit",
+      "time": "3:00 PM to 4:00 PM"
+    },
+    {
+      "date": "Saturday",
+      "class": "Pilates",
+      "time": "6:00 PM to 7:00 PM"
+    }
+  ]
+  
